@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(manomundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.up-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .menu-text {
+    color: white;
+    padding: 0 5px;
+    margin: 10px 30px 10px 30px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .button-text {
+    background-color: white;
+    border-bottom: blue;
+  }
+
+  .text {
+    color: white;
+    font-size: 25px;
+  }
+
+  .user{
+    width:120px;
+    height:120px;
+
+  }
